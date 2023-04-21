@@ -34,11 +34,13 @@ public class Programa06CC1 {
         venta.getDetalle().add(d1);
         
         d2.setDescripcion("llssdadascxss");
-        d2.setCantidad(4);
+        d2.setCantidad(6);
         d2.setPrecio(32);
         d2.setSubtotal(3421);
         d2.setVenta(venta);
         venta.getDetalle().add(d2);
+        
+        dao.findByID(1L);
         
         
         
